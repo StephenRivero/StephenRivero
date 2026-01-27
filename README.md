@@ -1,5 +1,5 @@
 ## 🌐 Portfolio
-<a href="https://stephenrivero.vercel.app" target="_blank" rel="noopener noreferrer">
+<a href="https://stephenrivero.vercel.app" target="_blank">
   stephenrivero.vercel.app ↗
 </a>
 
