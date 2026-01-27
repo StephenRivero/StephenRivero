@@ -1,9 +1,7 @@
-<h2>
-  <a href="https://stephenrivero.vercel.app" target="_blank" rel="noopener noreferrer">
-    🌐 Visit My Website
-  </a>
-</h2>
-
+## 🌐 Portfolio
+<a href="https://stephenrivero.vercel.app" target="_blank" rel="noopener noreferrer">
+  stephenrivero.vercel.app ↗
+</a>
 
 <!--
 **StephenRivero/StephenRivero** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
