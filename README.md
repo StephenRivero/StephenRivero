@@ -1,4 +1,4 @@
-# Stephen Manasseh R. Pastor
+# Stephen M. R. Pastor
 
 ## Front-End Developer
 
@@ -8,11 +8,12 @@
 
 ## About Me
 
-Passionate Front-End Developer with expertise in building responsive, user-friendly web applications. Based in Taguig City, Metro Manila.
+Passionate Front-End Developer with expertise in building modern, responsive, and user-friendly web applications. Currently working at BETRNK Tours Inc. as a Front-End Engineer, specializing in Next.js, React.js, and TypeScript.
 
-**Contact:**
-- Email: stephen.m.rivero@gmail.com
-- Phone: (+63)991-531-1151
+- **Email:** stephen.m.rivero@gmail.com
+- **Phone:** (+63)991-531-1151
+- **Location:** Taguig City, Metro Manila
+- **Portfolio:** [stephenrivero.vercel.app](https://stephenrivero.vercel.app)
 
 ---
 
@@ -23,7 +24,7 @@ Passionate Front-End Developer with expertise in building responsive, user-frien
 
 - Build front-end UI/UX of B-ticket website and its admin/merchant dashboard B-merchant
 - Utilize AI agents such as Claude Code and Augment Code to accelerate feature development
-- Integrate data from RESTful APIs with the help of Postman
+- Integrate data from RESTful APIs with Postman
 - Convert UI/UX designs from Figma into front-end code with Responsive Design
 - **Tech Stack:** Next.js, React.js, Redux, TypeScript, JavaScript (ES6), Shadcn, Tailwind CSS, Zod
 
@@ -31,7 +32,7 @@ Passionate Front-End Developer with expertise in building responsive, user-frien
 **Jan. 2024 – July 2025 (1.5 years)**
 
 - Build front-end UI/UX of E-commerce with admin dashboard websites
-- Integrate data from RESTful APIs with the help of Postman
+- Integrate data from RESTful APIs with Postman
 - Convert UI/UX designs from Adobe and Figma into front-end code with Responsive Design
 - **Tech Stack:** Next.js, React.js, TypeScript, JavaScript (ES6), SCSS, Tailwind CSS
 
@@ -46,18 +47,32 @@ Passionate Front-End Developer with expertise in building responsive, user-frien
 
 ## Skills
 
-| Category | Technologies |
-|----------|--------------|
-| **Languages** | HTML5, CSS3, JavaScript ES6, TypeScript |
-| **Frameworks** | React.js, Next.js, Laravel |
-| **Styling** | Tailwind CSS, SCSS, Material UI, Framer Motion |
-| **State Management** | Redux, Context API |
-| **Validation** | Zod |
-| **API** | REST API integration, Postman |
-| **Version Control** | Git, Bitbucket, GitHub, GitLab |
-| **Deployment** | Vercel |
-| **Project Management** | Jira (Scrum/Agile) |
-| **IDE** | Visual Studio Code, WebStorm, IntelliJ |
+### Languages & Frameworks
+- HTML5, CSS3, SASS/SCSS
+- JavaScript ES6, TypeScript
+- React.js, Next.js
+- Redux, Redux Toolkit
+- Laravel, Livewire
+
+### Styling & UI
+- Tailwind CSS
+- Material UI
+- Shadcn
+- Framer Motion
+- Alpine.js
+
+### Tools & Technologies
+- REST API integration (Postman)
+- Version Control: Git, Bitbucket, GitHub, Gitlab
+- Deployment: Vercel
+- Project Management: Jira (Scrum/Agile)
+- IDE: Visual Studio Code, WebStorm, IntelliJ
+
+### Soft Skills
+- Problem Solving
+- High Attention to Details
+- Sustained Attention/Focus
+- Team Work & Independent Work
 
 ---
 
@@ -71,95 +86,67 @@ Passionate Front-End Developer with expertise in building responsive, user-frien
 
 ---
 
-## Featured Project
+## Projects
 
-# The Wild Oasis - Luxury Cabin Booking Website
+### 1. The Wild Oasis - Luxury Cabin Booking Website
+
+🔗 **Live Demo:** [stephens-wild-oasis.vercel.app/](https://stephens-wild-oasis.vercel.app/)
 
 A Next.js 14 application for a luxury cabin resort located in the Italian Dolomites. The app allows guests to browse cabins, make reservations, and manage their bookings.
 
-## Features
+#### Features
 
-### 🏠 Homepage
-- Full-screen hero background image
-- Welcome message: "Welcome to paradise"
-- Call-to-action button linking to cabins page
+- **Homepage:** Full-screen hero background, welcome message "Welcome to paradise", call-to-action button
+- **Cabins Listing:** Display all available luxury cabins with filtering by capacity (Small 1-3, Medium 4-7, Large 8-12 guests), cabin cards showing image, name, capacity, and price with discount
+- **Cabin Details:** Full cabin information including image gallery, name, description, maximum capacity, regular price and discount, interactive reservation form with date selector (blocks booked dates), guest count selector, observations field, real-time price calculation
+- **User Authentication:** Google OAuth via NextAuth.js, automatic guest creation on first sign-in, session management with guest ID, protected routes for account area
+- **Guest Account:** Welcome message with user's first name, access to profile and reservations
+- **Profile Management:** Update guest profile with nationality (country selector with flag), national ID (validated: 6-12 alphanumeric characters), server-side form validation
+- **My Reservations:** List all user's reservations with cabin name and image, dates, number of nights, number of guests, total price, booking status; edit reservations (modify guests, observations); delete reservations with authorization check
+- **Booking Confirmation:** Thank you page after successful booking
+- **About Page:** Property description, family history (since 1962), images of property and family, dynamic cabin count display
 
-### 🏡 Cabins Listing (`/cabins`)
-- Display all available luxury cabins
-- **Filtering by capacity:** All cabins, Small (1-3 guests), Medium (4-7 guests), Large (8-12 guests)
-- Cabin cards showing: Image, Name, Capacity, Price (with discount applied)
-- Reservation reminder for logged-in users
-
-### 🛏️ Cabin Details (`/cabins/[cabinid]`)
-- Full cabin information: Image gallery, Name and description, Maximum capacity, Regular price and discount
-- Interactive reservation form: Date selector (blocks booked dates), Guest count selector, Observations field, Real-time price calculation
-
-### 👤 User Authentication
-- **Google OAuth** via NextAuth.js
-- Automatic guest creation on first sign-in
-- Session management with guest ID
-- Protected routes for account area
-
-### 👤 Guest Account (`/account`)
-- Welcome message with user's first name
-- Access to profile and reservations
-
-### 📋 Profile Management (`/account/profile`)
-- Update guest profile information: Nationality (country selector with flag), National ID (validated: 6-12 alphanumeric characters)
-- Server-side form validation
-- Profile update via Supabase
-
-### 📅 My Reservations (`/account/reservations`)
-- List all user's reservations with cabin name, image, dates, number of nights, guests, total price, booking status
-- **Edit reservations:** Modify number of guests, add/modify observations
-- **Delete reservations:** Remove bookings with authorization check
-
-### ✅ Booking Confirmation (`/cabins/thankyou`)
-- Thank you page after successful booking
-
-### ℹ️ About Page (`/about`)
-- Property description, Family history (since 1962), Images, Dynamic cabin count display
-
-## Technology Stack
+#### Technology Stack
 
 | Category | Technology |
 |----------|------------|
-| **Framework** | Next.js 14 (App Router) |
-| **Language** | JavaScript |
-| **Authentication** | NextAuth.js (Google Provider) |
-| **Database** | Supabase (PostgreSQL) |
-| **Styling** | Tailwind CSS |
-| **Date Handling** | date-fns, react-day-picker |
-| **Icons** | Heroicons React |
-| **Fonts** | Geist (Variable) |
+| Framework | Next.js 14 (App Router) |
+| Language | JavaScript |
+| Authentication | NextAuth.js (Google Provider) |
+| Database | Supabase (PostgreSQL) |
+| Styling | Tailwind CSS |
+| Date Handling | date-fns, react-day-picker |
+| Icons | Heroicons React |
+| Fonts | Geist (Variable) |
 
-## Project Structure
+#### Project Structure
 
 ```
 the-wild-oasis-website/
 ├── app/
 │   ├── _components/          # Reusable UI components
-│   ├── _lib/                 # Core utilities (actions.js, auth.js, data-service.js, supabase.js)
-│   ├── _styles/
-│   ├── account/              # Protected account routes
+│   ├── _lib/                 # Core utilities (actions, auth, data-service, supabase)
+│   ├── account/             # Protected account routes
+│   │   ├── profile/
+│   │   └── reservations/
 │   ├── cabins/               # Cabins listing & details
 │   ├── login/                # Login page
 │   ├── about/                # About page
 │   ├── layout.js
-│   └── page.js
+│   └── page.js               # Homepage
 ├── public/                   # Static assets
 ├── tailwind.config.js
 └── package.json
 ```
 
-## Database Schema (Supabase)
+#### Database Schema (Supabase)
 
-- **cabins**: id, name, maxCapacity, regularPrice, discount, description, image
-- **guests**: id, email, fullName, nationality, countryFlag, nationalID
-- **bookings**: id, created_at, startDate, endDate, numNights, numGuests, cabinPrice, extrasPrice, totalPrice, status, hasBreakfast, isPaid, guestId, cabinId
-- **settings**: id, minBookingLength, maxBookingLength, breakfastPrice
+- **cabins:** id, name, maxCapacity, regularPrice, discount, description, image
+- **guests:** id, email, fullName, nationality, countryFlag, nationalID
+- **bookings:** id, created_at, startDate, endDate, numNights, numGuests, cabinPrice, extrasPrice, totalPrice, status, hasBreakfast, isPaid, guestId, cabinId
+- **settings:** id, minBookingLength, maxBookingLength, breakfastPrice
 
-## Environment Variables
+#### Environment Variables
 
 ```env
 # NextAuth
@@ -172,23 +159,20 @@ NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
 ```
 
-## Getting Started
+#### Getting Started
 
 ```bash
 # Install dependencies
 npm install
 
 # Set up environment variables
-# Create .env.local with your Supabase and Google OAuth credentials
+Create .env.local with Supabase and Google OAuth credentials
 
 # Run development server
 npm run dev
-
-# Open in browser
-Visit http://localhost:3000
 ```
 
-## Available Scripts
+#### Available Scripts
 
 | Command | Description |
 |---------|-------------|
@@ -200,9 +184,37 @@ Visit http://localhost:3000
 
 ---
 
-## Portfolio
+### 2. YouTube Clone 2
 
-🌐 **Live Portfolio:** [stephenrivero.vercel.app](https://stephenrivero.vercel.app)
+🔗 **Live Demo:** [youtubeclone-2.vercel.app](https://youtubeclone-2.vercel.app)
+
+A YouTube clone built with React, Redux Toolkit, Tailwind CSS, and React Router.
+
+#### Features
+
+- Video browsing and playback
+- Category-based navigation
+- Infinite scroll
+- Search functionality
+- Responsive design
+
+#### Technology Stack
+
+| Category | Technology |
+|----------|------------|
+| Frontend | React 18, TypeScript |
+| State Management | Redux Toolkit, React Redux |
+| Routing | React Router DOM v7 |
+| Styling | Tailwind CSS |
+| HTTP Client | Axios |
+
+#### Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm start` | Run app in development mode |
+| `npm test` | Launch test runner |
+| `npm run build` | Build for production |
 
 ---
 
@@ -212,3 +224,7 @@ I'm open to collaboration and new opportunities. Feel free to reach out!
 
 - Email: stephen.m.rivero@gmail.com
 - Location: Taguig City, Metro Manila
+
+---
+
+*Last updated: April 2026*
