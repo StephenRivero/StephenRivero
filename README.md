@@ -1,4 +1,4 @@
-# Stephen M. R. Pastor
+# Stephen Manasseh R. Pastor
 
 ## Front-End Developer
 
