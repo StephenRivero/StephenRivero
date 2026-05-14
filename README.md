@@ -230,4 +230,8 @@ I'm open to collaboration and new opportunities. Feel free to reach out!
 
 ---
 
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=StephenRivero&label=Profile%20views&color=0e75b6&style=flat" alt="StephenRivero" />
+</p>
+
 *Last updated: April 2026*
