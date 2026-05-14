@@ -8,7 +8,10 @@
 
 ## About Me
 
-Passionate Front-End Developer with expertise in building modern, responsive, and user-friendly web applications. Currently working at BETRNK Tours Inc. as a Front-End Engineer, specializing in Next.js, React.js, and TypeScript.
+Results-driven Front-End Developer with 4+ years of experience building responsive, performant web
+applications and dashboards. Proficient in React.js, Next.js, and TypeScript with a strong eye for UI/UX.
+Experienced working with cross-functional teams in Agile environments and leveraging AI-assisted
+development tools to accelerate delivery.
 
 - **Email:** stephen.m.rivero@gmail.com
 - **Phone:** (+63)991-531-1151
